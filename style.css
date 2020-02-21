@@ -1,0 +1,96 @@
+
+body {
+  background-color: #ebf0f0;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+
+#ardoiseCanvas {
+
+  margin: 3% 25% 3% 25%;
+  background-color: white;  
+  border: 1px solid;
+ padding: 10px;  
+  box-shadow: 5px 2px 2px 5px #888888; 
+}
+
+.hide {
+  display: none;
+}
+
+
+.toolsOptions {
+  color: #72b6d0;
+  margin-left: 2%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.boutonOutils {
+  color: black;
+  background-color: #d3d3d3;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.25%;
+  padding-bottom:0.25%;
+}
+
+#listeCouleur {
+  padding-right: 3%;
+  background-color: none;
+  border-radius: 0%;
+  width: 0px;
+  height: 0px;
+  margin-right: 3%;
+}
+
+ul li {
+  display: inline-block;
+}
+ul li button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;  
+}
+
+button[data-lineColor='black'] {
+  background-color: rgb(29, 22, 22);
+}
+
+button[data-lineColor="#602627"] {
+  background-color: #602627;
+}
+
+
+button[data-lineColor="#c01525"] {
+  background-color: #c01525;
+}
+
+
+button[data-lineColor="#ffbb38"] {
+  background-color: #ffbb38;
+}
+
+button[data-lineColor="#00b635"] {
+  background-color: #00b635;
+}
+
+button[data-lineColor="#009d98"] {
+  background-color: #009d98;
+}
+
+button[data-lineColor="#0078a2"] {
+  background-color: #0078a2;
+}
+
+#epaissuerTrais li button{
+  background-color: #d6d6d6;
+  color: black;
+  border-radius: 2%;
+  width: auto;
+  height: auto; 
+}

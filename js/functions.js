@@ -1,5 +1,7 @@
 "use strict";
 
+/*
+
 function onMouseDown(ev)  {
  // alert("hello mousedown");
  let xOffset = ev.offsetX;
@@ -22,10 +24,10 @@ function onMouseMove(ev) {
     ctx.stroke();
     ctx.closePath();
     positionInitiale = {x: ev.offsetX, y: ev.offsetY}
-    /*console.log(`positionInitialeX = ${positionInitiale.x}, 
-    positionInitialeY = ${positionInitiale.y} 
-    ev.offsetX = ${ev.offsetX}, ev.offsetY = ${ev.offsetY}
-    `);*/
+    // console.log(`positionInitialeX = ${positionInitiale.x}, 
+    // positionInitialeY = ${positionInitiale.y} 
+    // ev.offsetX = ${ev.offsetX}, ev.offsetY = ${ev.offsetY}
+    // `);
   }
 }
 
@@ -76,4 +78,4 @@ let color =`rgba(${pixelData.data[0]}, ${pixelData.data[1]}, ${pixelData.data[2]
 ctx.strokeStyle = color;
 }
 
-
+*/
